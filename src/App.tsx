@@ -1,10 +1,11 @@
 import React from "react";
-import Home from "./components/Home";
-import Skills from "./components/Skills";
+import Home from "./pages/Home";
+import Skills from "./pages/Skills";
 import { createGlobalStyle } from "styled-components";
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const Universal = createGlobalStyle`
  body {
+  background-color: white;
     padding: 0rem;
     box-sizing: none;
     margin: 0;

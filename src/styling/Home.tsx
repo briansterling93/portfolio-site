@@ -3,24 +3,9 @@ import styled from "styled-components";
 export const MainSection = styled.div`
   display: flex;
   justify-content: center;
+  flex-direction: column;
   height: 90vh;
-  background-color: white;
-  // background-color: #f6f6f6;
-
-  #icons-section {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  #github-logo {
-    cursor: pointer;
-    color: #4382ff;
-
-    :hover {
-      color: black;
-    }
-  }
+  margin-top: -2rem;
 `;
 
 export const ItemArray = styled.div`
@@ -32,7 +17,7 @@ export const ItemArray = styled.div`
 
   p {
     font-size: 2.6rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: right;
   }
 
@@ -44,14 +29,15 @@ export const ItemArray = styled.div`
     align-items: center;
 
     button {
-      background-color: #4382ff;
+      // background-color: #4382ff;
+      background-color: black;
       color: white;
       border: none;
       outline: none;
-      height: 3rem;
-      font-size: 1.1rem;
+      height: 2.5rem;
+      font-size: 0.9rem;
       font-weight: 600;
-      width: 14rem;
+      width: 11rem;
       border-radius: 2rem;
       cursor: pointer;
 
