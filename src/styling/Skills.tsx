@@ -22,7 +22,7 @@ export const Section1 = styled.div`
 
   h1 {
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   #section-p {
@@ -42,8 +42,7 @@ export const Section2 = styled.div`
   }
 
   input {
-    // pointer-events: none;
-    cursor: none;
+    cursor: pointer;
     border-radius: 0.5rem;
     outline: none;
     border: none;

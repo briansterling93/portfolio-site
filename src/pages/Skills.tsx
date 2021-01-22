@@ -32,7 +32,7 @@ const Skills: React.FC = () => {
               <input value="React" type="button" />
             </div>
             <div className="lang-div">
-              <input value="Javascript" type="button" />
+              <input value="JavaScript" type="button" />
             </div>
             <div className="lang-div">
               <input value="mySQL" type="button" />
@@ -51,6 +51,9 @@ const Skills: React.FC = () => {
             </div>
             <div className="lang-div">
               <input value="Express" type="button" />
+            </div>
+            <div className="lang-div">
+              <input value="TypeScript" type="button" />
             </div>
             <div className="lang-div">
               <input value="NodeJS" type="button" />

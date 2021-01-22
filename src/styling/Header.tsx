@@ -11,13 +11,25 @@ export const IconsLogo = styled.div`
   a {
     color: #838383;
 
-    :hover {
-      color: #4382ff;
-    }
+    // :hover {
+    //   color: #4382ff;
+    // }
   }
 
   .logo-img {
     height: 2rem;
     width: 3rem;
+  }
+
+  #linkedin-logo {
+    :hover {
+      color: #0072b1;
+    }
+  }
+
+  #github-logo {
+    :hover {
+      color: black;
+    }
   }
 `;

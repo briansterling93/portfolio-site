@@ -8,12 +8,12 @@ const Header: React.FC = () => {
       {" "}
       <div>
         <a href="https://github.com/briansterling93">
-          <AiOutlineGithub className="logo-img" />
+          <AiOutlineGithub className="logo-img" id="github-logo" />
         </a>
       </div>
       <div>
         <a href="https://www.linkedin.com/in/briansterling93/">
-          <AiFillLinkedin className="logo-img" />
+          <AiFillLinkedin className="logo-img" id="linkedin-logo" />
         </a>
       </div>
     </IconsLogo>

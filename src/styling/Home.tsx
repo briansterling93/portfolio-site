@@ -29,7 +29,6 @@ export const ItemArray = styled.div`
     align-items: center;
 
     button {
-      // background-color: #4382ff;
       background-color: black;
       color: white;
       border: none;
@@ -42,7 +41,7 @@ export const ItemArray = styled.div`
       cursor: pointer;
 
       :hover {
-        background-color: #2361db;
+        background-color: #404040;
       }
     }
   }
