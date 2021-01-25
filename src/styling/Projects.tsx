@@ -16,20 +16,34 @@ export const Section1 = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 70rem;
 
   h1 {
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 2.2rem;
   }
 `;
 
 export const Section2 = styled.div`
-  width: 70rem;
+  a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+  width: 80rem;
   min-height: 20rem;
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+
+  #img-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-spacer {
+    padding: 0.7rem;
+  }
 
   .projects-div {
     padding: 2rem;
@@ -66,10 +80,42 @@ export const Section2 = styled.div`
   }
 
   img {
-    height: 20rem;
-    width: 30rem;
-    border: 1px solid #dfdfdf;
-    border-radius: 0.6rem;
+    // height: 35rem;
+    // width: 38rem;
+    height: 32rem;
+    width: 38rem;
+    border: none;
+    box-shadow: 0 0 10px #bbb;
+    border-radius: 0.1rem;
+  }
+
+  #testaccnt-div {
+    font-weight: 400;
+  }
+
+  .credentials-title {
+    font-weight: 500;
+  }
+
+  #techstack-div {
+    font-weight: 450;
+  }
+
+  #github-div {
+    cursor: pointer;
+
+    text-decoration: underline;
+
+    button {
+      :hover {
+        opacity: 0.6;
+      }
+      border: none;
+      outline: none;
+      height: 1rem;
+      text-decoration: underline;
+      background-color: transparent;
+    }
   }
 `;
 

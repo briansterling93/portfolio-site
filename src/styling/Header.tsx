@@ -8,28 +8,24 @@ export const IconsLogo = styled.div`
   display: flex;
   flex-direction: row;
 
-  a {
-    color: #838383;
-
-    // :hover {
-    //   color: #4382ff;
-    // }
-  }
-
   .logo-img {
     height: 2rem;
     width: 3rem;
   }
 
   #linkedin-logo {
+    color: #0072b1;
+
     :hover {
-      color: #0072b1;
+      color: #005180;
     }
   }
 
   #github-logo {
+    color: black;
+
     :hover {
-      color: black;
+      color: #404040;
     }
   }
 `;

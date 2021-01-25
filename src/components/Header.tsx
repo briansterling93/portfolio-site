@@ -5,7 +5,6 @@ import { IconsLogo } from "../styling/Header";
 const Header: React.FC = () => {
   return (
     <IconsLogo>
-      {" "}
       <div>
         <a href="https://github.com/briansterling93">
           <AiOutlineGithub className="logo-img" id="github-logo" />

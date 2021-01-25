@@ -41,7 +41,7 @@ export const ItemArray = styled.div`
       cursor: pointer;
 
       :hover {
-        background-color: #404040;
+        opacity: 0.7;
       }
     }
   }

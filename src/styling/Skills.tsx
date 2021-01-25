@@ -17,12 +17,12 @@ export const Section1 = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 35rem;
+  width: 40rem;
   min-height: 2rem;
 
   h1 {
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 2.2rem;
   }
 
   #section-p {
@@ -31,7 +31,7 @@ export const Section1 = styled.div`
 `;
 
 export const Section2 = styled.div`
-  width: 35rem;
+  width: 40rem;
   height: 2rem;
   display: flex;
   justify-content: flex-end;
