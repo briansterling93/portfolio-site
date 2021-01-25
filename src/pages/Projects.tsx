@@ -76,7 +76,8 @@ const Projects: React.FC = () => {
                   below credentials:*
                 </i>
                 <br />
-                <span className="credentials-title">Username:</span> Test{" "}
+                <span className="credentials-title">Username:</span>{" "}
+                test@test.com{" "}
                 <span className="credentials-title">Password:</span> Password
               </p>
             </div>
@@ -203,7 +204,21 @@ const Projects: React.FC = () => {
                   </div>
                 </b>
               </div>
-              <div></div>
+              <div>
+                <p></p>
+              </div>
+              <div>
+                <button
+                  onClick={() => {
+                    openInNewTab("https://mars-roverr.web.app");
+                  }}
+                >
+                  View Project{" "}
+                  <span id="btn-logo">
+                    <BsArrowRight />
+                  </span>
+                </button>
+              </div>
               <div>
                 {" "}
                 <div className="projects-div">
@@ -239,7 +254,7 @@ const Projects: React.FC = () => {
                         <button
                           onClick={() => {
                             openInNewTab(
-                              "https://github.com/briansterling93/mars-rover"
+                              "https://github.com/briansterling93/Fit-Plate"
                             );
                           }}
                         >
@@ -248,22 +263,25 @@ const Projects: React.FC = () => {
                       </div>
                     </b>
                   </div>
-                  <div></div>
+                  <div>
+                    <p></p>
+                  </div>
+                  <div>
+                    {" "}
+                    <button
+                      onClick={() => {
+                        openInNewTab("https://fit-plate.firebaseapp.com/");
+                      }}
+                    >
+                      View Project{" "}
+                      <span id="btn-logo">
+                        <BsArrowRight />
+                      </span>
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div>
-                <button
-                  onClick={() => {
-                    openInNewTab("https://mars-roverr.web.app/");
-                  }}
-                >
-                  View Project{" "}
-                  <span id="btn-logo">
-                    <BsArrowRight />
-                  </span>
-                </button>
-              </div>{" "}
-            </div>
+            </div>{" "}
           </div>
         </Section2>
       </ItemArray>

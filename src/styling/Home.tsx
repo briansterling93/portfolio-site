@@ -9,7 +9,6 @@ export const MainSection = styled.div`
 `;
 
 export const ItemArray = styled.div`
-  //   height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
