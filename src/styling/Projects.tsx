@@ -73,7 +73,7 @@ export const Section2 = styled.div`
         font-weight: 650;
 
         #btn-logo {
-          padding-left: 0.3rem;
+          padding-left: 0.1rem;
         }
       }
     }

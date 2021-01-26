@@ -1,34 +1,37 @@
 import styled from "styled-components";
 
 export const MainSection = styled.div`
-  height: 10rem;
-  width: 100%;
+  min-height: 20rem;
+  // width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: #f6f6f6;
 `;
-//   min-height: 2rem;
-//   padding-left: 1rem;
-//   padding-top: 0.5rem;
-//   cursor: pointer;
-//   display: flex;
-//   flex-direction: row;
 
-//   .logo-img {
-//     height: 2rem;
-//     width: 3rem;
-//   }
+export const ItemArray = styled.div`
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+`;
 
-//   #linkedin-logo {
-//     color: #0072b1;
+export const Section1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 80rem;
+  font-size: 1.8rem;
+  font-weight: 600;
 
-//     :hover {
-//       color: #005180;
-//     }
-//   }
+  #contact-p {
+    font-weight: 350;
+    font-size: 1rem;
+  }
 
-//   #github-logo {
-//     color: black;
-
-//     :hover {
-//       color: #404040;
-//     }
-//   }
+  #email-div {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+`;
