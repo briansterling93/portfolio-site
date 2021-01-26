@@ -27,6 +27,7 @@ export const Section1 = styled.div`
 
   #section-p {
     font-weight: 200;
+    line-height: 2rem;
   }
 `;
 

@@ -18,8 +18,10 @@ export const Section1 = styled.div`
   text-align: left;
 
   h1 {
-    font-weight: 400;
-    font-size: 2.2rem;
+    // font-weight: 400;
+    // font-size: 2.2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
   }
 `;
 

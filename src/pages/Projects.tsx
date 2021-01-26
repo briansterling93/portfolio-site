@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   MainSection,
   ItemArray,
@@ -16,14 +16,19 @@ import dr1 from "../imgs/gifs/dr1.gif";
 import fc from "../imgs/gifs/fc.gif";
 import mr from "../imgs/gifs/mr.gif";
 import fitplate from "../imgs/gifs/fitplate.gif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Projects: React.FC = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   function openInNewTab(url: any) {
     const fetch: any = window.open(url, "_blank");
     fetch.focus();
   }
   return (
-    <MainSection>
+    <MainSection data-aos="fade">
       <ItemArray>
         <Section1>
           <h1>Personal projects</h1>

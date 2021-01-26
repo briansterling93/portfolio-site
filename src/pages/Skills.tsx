@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   MainSection,
   ItemArray,
@@ -6,10 +6,15 @@ import {
   Section2,
   LangSection,
 } from "../styling/Skills";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Skills: React.FC = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
-    <MainSection>
+    <MainSection data-aos="fade">
       <ItemArray>
         {" "}
         <Section1>
@@ -18,10 +23,11 @@ const Skills: React.FC = () => {
             <h1>My Skillset</h1>
           </div>
           <div id="section-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            As a determined self-taught programmer, I've placed continuous
+            emphasis on ensuring quality results are consistently produced,
+            while also staying attuned to the new frameworks. I've learned and
+            grasped the importance of ensuring products are user friendly, while
+            establishing a code that is reusable and scalable.{" "}
           </div>
         </Section1>
         <Section2>

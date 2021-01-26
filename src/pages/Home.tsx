@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MainSection, ItemArray } from "../styling/Home";
 import ImgHeader from "../components/ImgHeader";
 import Header from "../components/Header";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export const Home: React.FC = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div>
       <div>
@@ -11,7 +17,7 @@ export const Home: React.FC = () => {
       </div>
 
       <MainSection>
-        <ItemArray>
+        <ItemArray data-aos="fade">
           <div>
             <ImgHeader />
           </div>

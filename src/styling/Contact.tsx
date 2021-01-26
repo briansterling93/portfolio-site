@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const MainSection = styled.div`
   min-height: 20rem;
-  // width: 100%;
   display: flex;
   justify-content: center;
   background-color: #f6f6f6;
