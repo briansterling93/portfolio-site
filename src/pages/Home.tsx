@@ -29,7 +29,7 @@ export const Home: React.FC = () => {
             <br />
             <span className="title-span">and beach lover.</span>
           </p>
-          <div id="btn-div" data-aos="fade">
+          <div id="btn-div" data-aos="fade-out">
             {/* <button>View projects</button> */}
             <span id="arrow-1">
               {" "}
