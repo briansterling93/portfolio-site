@@ -13,6 +13,7 @@ const Universal = createGlobalStyle`
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
  }
+
 `;
 
 function App() {

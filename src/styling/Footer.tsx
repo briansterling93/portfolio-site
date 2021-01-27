@@ -14,6 +14,7 @@ export const ItemArray = styled.div`
   text-align: center;
   flex-direction: column;
   font-weight: 400;
+  font-size: 0.8rem;
 
   #poweredby-span {
     font-weight: 600;

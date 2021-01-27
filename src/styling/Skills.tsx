@@ -70,6 +70,18 @@ export const Section1 = styled.div`
     width: 19rem;
     height: 16rem;
   }
+
+  @media only screen and (max-width: 380px) {
+    width: 16rem;
+    height: 18rem;
+
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 320px) {
+    width: 14rem;
+    height: 21rem;
+  }
 `;
 
 export const Section2 = styled.div`
@@ -134,6 +146,16 @@ export const Section2 = styled.div`
 
   @media only screen and (max-width: 430px) {
     width: 19rem;
+  }
+
+  @media only screen and (max-width: 380px) {
+    width: 16rem;
+    margin-top: 2.5rem;
+  }
+
+  @media only screen and (max-width: 320px) {
+    width: 13rem;
+    margin-top: 3rem;
   }
 `;
 

@@ -26,6 +26,33 @@ export const ItemArray = styled.div`
 
   #btn-div {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    // color: #e5e5e5;
+    // color: #cbcbcb;
+    animation: fadeIn 5s infinite;
+
+    #arrow-1 {
+      color: #848484;
+    }
+
+    #arrow-2 {
+      color: #989898;
+    }
+
+    #arrow-3 {
+      color: #c7c7c7;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
 
     button {
       background-color: black;
@@ -54,6 +81,12 @@ export const ItemArray = styled.div`
   @media only screen and (max-width: 600px) {
     p {
       font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    p {
+      font-size: 1.2rem;
     }
   }
 `;

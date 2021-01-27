@@ -7,6 +7,10 @@ export const MainSection = styled.div`
   @media only screen and (max-width: 600px) {
     margin-top: 3rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 5rem;
+  }
 `;
 
 export const ItemArray = styled.div`
@@ -36,6 +40,10 @@ export const Section1 = styled.div`
     h1 {
       font-size: 1.4rem;
     }
+  }
+
+  @media only screen and (max-width: 380px) {
+    text-align: center;
   }
 `;
 
@@ -203,6 +211,24 @@ export const Section2 = styled.div`
 
   @media only screen and (max-width: 430px) {
     width: 19rem;
+  }
+
+  @media only screen and (max-width: 380px) {
+    width: 16rem;
+    
+    img {
+      height: 10.5rem;
+      width: 14rem;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    width: 12rem;
+    
+    img {
+      height: 10.5rem;
+      width: 12rem;
+    }
   }
 `;
 

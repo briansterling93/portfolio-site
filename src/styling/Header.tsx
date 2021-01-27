@@ -28,4 +28,11 @@ export const IconsLogo = styled.div`
       color: #404040;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .logo-img {
+      height: 1.5rem;
+      width: 2.5rem;
+    }
+  }
 `;

@@ -77,4 +77,21 @@ export const Section1 = styled.div`
   @media only screen and (max-width: 430px) {
     width: 13rem;
   }
+
+  @media only screen and (max-width: 380px) {
+    width: 9rem;
+    font-size: 1rem;
+  }
+
+  @media only screen and (max-width: 320px) {
+    width: 7rem;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+
+    #email-div {
+      font-size: 0.8rem;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
 `;

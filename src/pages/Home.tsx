@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { MainSection, ItemArray } from "../styling/Home";
+import { BsChevronDoubleDown } from "react-icons/bs";
 import ImgHeader from "../components/ImgHeader";
 import Header from "../components/Header";
 
@@ -28,8 +29,20 @@ export const Home: React.FC = () => {
             <br />
             <span className="title-span">and beach lover.</span>
           </p>
-          <div id="btn-div">
-            <button>View projects</button>
+          <div id="btn-div" data-aos="fade">
+            {/* <button>View projects</button> */}
+            <span id="arrow-1">
+              {" "}
+              <BsChevronDoubleDown />
+            </span>
+            <span id="arrow-2">
+              {" "}
+              <BsChevronDoubleDown />
+            </span>
+            <span id="arrow-3">
+              {" "}
+              <BsChevronDoubleDown />
+            </span>
           </div>
         </ItemArray>
       </MainSection>
