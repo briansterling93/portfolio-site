@@ -44,4 +44,10 @@ export const ItemArray = styled.div`
       }
     }
   }
+  @media only screen and (max-width: 1350px) {
+    p {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
 `;

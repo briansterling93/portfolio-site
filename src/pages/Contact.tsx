@@ -10,9 +10,9 @@ const Contact: React.FC = () => {
           Looking for a Developer? Feel free to contact me.
           <div id="contact-p">
             <p>
-              Whether you are seeking asistance with a web app, website, or
-              you're looking to fill a full time position. Feel free to reach
-              out, as I am always open to discuss{" "}
+              Whether you are needing a web app, website, or you're looking to
+              fill a full time position. Feel free to reach out, as I'm always
+              open to discuss.
             </p>
           </div>
           <div id="email-div">briansterling93@yahoo.com</div>

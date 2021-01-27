@@ -225,6 +225,9 @@ const Projects: React.FC = () => {
                 </button>
               </div>
               <div>
+                <p></p>
+              </div>
+              <div>
                 {" "}
                 <div className="projects-div">
                   <div id="img-div">

@@ -18,10 +18,14 @@ export const Section1 = styled.div`
   text-align: left;
 
   h1 {
-    // font-weight: 400;
-    // font-size: 2.2rem;
     font-weight: 700;
     font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: 1350px) {
+    h1 {
+      font-size: 1.7rem;
+    }
   }
 `;
 
@@ -82,9 +86,7 @@ export const Section2 = styled.div`
   }
 
   img {
-    // height: 35rem;
-    // width: 38rem;
-    height: 32rem;
+    height: 28rem;
     width: 38rem;
     border: none;
     box-shadow: 0 0 10px #bbb;
@@ -118,6 +120,33 @@ export const Section2 = styled.div`
       text-decoration: underline;
       background-color: transparent;
     }
+  }
+
+  @media only screen and (max-width: 1350px) {
+    width: 50rem;
+
+    img {
+      height: 12.5rem;
+      width: 23rem;
+      border: none;
+      box-shadow: 0 0 10px #bbb;
+      border-radius: 0.1rem;
+    }
+
+    .projects-div {
+      padding: .5rem;
+      h1 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #393939;
+      }
+
+      button {
+        height: 1.8rem;
+        width: 9rem;
+      
+        font-size: 0.8rem;
+    
   }
 `;
 

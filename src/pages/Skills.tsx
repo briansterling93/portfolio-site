@@ -25,9 +25,10 @@ const Skills: React.FC = () => {
           <div id="section-p">
             As a determined self-taught programmer, I've placed continuous
             emphasis on ensuring quality results are consistently produced,
-            while also staying attuned to the new frameworks. I've learned and
-            grasped the importance of ensuring products are user friendly, while
-            establishing a code that is reusable and scalable.{" "}
+            while also staying attuned of the everchanging frameworks. I've
+            learned and grasped the importance of ensuring products are user
+            friendly, while also establishing code that is reusable and
+            scalable.{" "}
           </div>
         </Section1>
         <Section2>

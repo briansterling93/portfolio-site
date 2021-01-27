@@ -29,6 +29,18 @@ export const Section1 = styled.div`
     font-weight: 200;
     line-height: 2rem;
   }
+
+  @media only screen and (max-width: 1350px) {
+    width: 25rem;
+
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    #section-p {
+      line-height: 1.5rem;
+    }
+  }
 `;
 
 export const Section2 = styled.div`
@@ -52,6 +64,10 @@ export const Section2 = styled.div`
     :hover {
       background-color: #dcdcdc;
     }
+  }
+
+  @media only screen and (max-width: 1350px) {
+    width: 25rem;
   }
 `;
 

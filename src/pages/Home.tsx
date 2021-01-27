@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { MainSection, ItemArray } from "../styling/Home";
 import ImgHeader from "../components/ImgHeader";
 import Header from "../components/Header";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 

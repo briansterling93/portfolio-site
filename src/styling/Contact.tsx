@@ -33,4 +33,20 @@ export const Section1 = styled.div`
     text-decoration: underline;
     font-weight: 600;
   }
+
+  @media only screen and (max-width: 1350px) {
+    width: 40rem;
+    font-size: 1.4rem;
+
+    #contact-p {
+      font-weight: 350;
+      font-size: 0.9rem;
+    }
+
+    #email-div {
+      font-size: 1.1rem;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
 `;
