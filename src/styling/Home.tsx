@@ -30,7 +30,7 @@ export const ItemArray = styled.div`
     flex-direction: column;
     // color: #e5e5e5;
     // color: #cbcbcb;
-    animation: fadeIn 5s infinite;
+    animation: fadeIn 4s infinite;
 
     #arrow-1 {
       color: #848484;
@@ -45,11 +45,23 @@ export const ItemArray = styled.div`
     }
 
     @keyframes fadeIn {
-      from {
-        opacity: 0;
+      0% {
+        opacity: 0.1;
       }
 
-      to {
+      25% {
+        opacity: 0.3;
+      }
+
+      50% {
+        opacity: 0.6;
+      }
+
+      75% {
+        opacity: 0.8;
+      }
+
+      100% {
         opacity: 1;
       }
     }
