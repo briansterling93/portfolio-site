@@ -49,4 +49,32 @@ export const Section1 = styled.div`
       font-weight: 600;
     }
   }
+
+  @media only screen and (max-width: 900px) {
+    width: 25rem;
+
+    #contact-p {
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+
+    #email-div {
+      font-size: 1rem;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 20rem;
+  }
+
+  @media only screen and (max-width: 520px) {
+    width: 17rem;
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 430px) {
+    width: 13rem;
+  }
 `;

@@ -18,4 +18,11 @@ export const ImgDiv = styled.div`
       width: 10rem;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    img {
+      height: 8rem;
+      width: 8rem;
+    }
+  }
 `;

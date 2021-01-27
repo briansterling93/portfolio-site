@@ -26,7 +26,7 @@ export const Home: React.FC = () => {
             <span className="title-span">Hey there! I'm Brian.</span> <br />
             Front End Developer,
             <br />
-            <span className="title-span">and coffee lover.</span>
+            <span className="title-span">and beach lover.</span>
           </p>
           <div id="btn-div">
             <button>View projects</button>

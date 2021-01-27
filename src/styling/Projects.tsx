@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const MainSection = styled.div`
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 3rem;
+  }
 `;
 
 export const ItemArray = styled.div`
@@ -27,6 +31,12 @@ export const Section1 = styled.div`
       font-size: 1.7rem;
     }
   }
+
+  @media only screen and (max-width: 900px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
 `;
 
 export const Section2 = styled.div`
@@ -40,11 +50,18 @@ export const Section2 = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
   flex-direction: column;
+
+  
 
   #img-div {
     display: flex;
     flex-direction: row;
+
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+    } 
   }
 
   .img-spacer {
@@ -128,9 +145,7 @@ export const Section2 = styled.div`
     img {
       height: 12.5rem;
       width: 23rem;
-      border: none;
-      box-shadow: 0 0 10px #bbb;
-      border-radius: 0.1rem;
+     
     }
 
     .projects-div {
@@ -147,6 +162,47 @@ export const Section2 = styled.div`
       
         font-size: 0.8rem;
     
+  }
+}
+
+  @media only screen and (max-width: 900px) {
+    width: 30rem;
+
+    img {
+      height: 12.5rem;
+      width: 15rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 28rem;
+
+    img {
+      height: 12.5rem;
+      width: 23rem;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    width: 23rem;
+
+    img {
+      height: 11.5rem;
+      width: 20rem;
+    }
+
+    .projects-div {
+      padding: 1rem;
+   
+  
+      p {
+        font-weight: 350;
+        font-size: 0.8rem;
+      }
+  }
+
+  @media only screen and (max-width: 430px) {
+    width: 19rem;
   }
 `;
 
