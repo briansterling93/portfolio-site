@@ -100,6 +100,7 @@ export const Section2 = styled.div`
     border-radius: 0.5rem;
     outline: none;
     border: none;
+    text-decoration: none;
     padding: 0.5rem;
     font-weight: 500;
     :hover {
@@ -121,7 +122,8 @@ export const Section2 = styled.div`
 
     input {
       padding: 0.3rem;
-      font-weight: 300;
+      border-radius: 0.1rem;
+      font-weight: 600;
     }
   }
 
