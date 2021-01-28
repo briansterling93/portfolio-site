@@ -2,7 +2,7 @@
 
 My portfolio website that I've created to showcase my talent.
 
-Check out the Live version here: [)
+Check out the Live version here: [https://portfolio-11845.web.app/)
 
 ## Tech Stack
 

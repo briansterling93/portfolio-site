@@ -98,6 +98,7 @@ export const Section2 = styled.div`
       font-size: 0.8rem;
       letter-spacing: 0.1rem;
       font-weight: 600;
+      background-color: #e9e9e9;
 
       :hover {
         background-color: #dcdcdc;

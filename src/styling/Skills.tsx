@@ -97,6 +97,7 @@ export const Section2 = styled.div`
 
   input {
     cursor: pointer;
+    background-color: #e9e9e9;
     border-radius: 0.5rem;
     outline: none;
     border: none;
@@ -123,7 +124,6 @@ export const Section2 = styled.div`
     input {
       padding: 0.3rem;
       border-radius: 0.1rem;
-      font-weight: 600;
     }
   }
 
@@ -134,6 +134,7 @@ export const Section2 = styled.div`
 
     input {
       font-size: 0.9rem;
+      border-radius: 0;
     }
     .lang-div {
       padding: 0.2rem;
@@ -143,7 +144,7 @@ export const Section2 = styled.div`
   @media only screen and (max-width: 520px) {
     width: 23rem;
     height: 10rem;
-    margin-top: 2.1rem;
+    margin-top: 3rem;
   }
 
   @media only screen and (max-width: 430px) {
